@@ -2,6 +2,8 @@
 
 A Model Context Protocol (MCP) server for integrating with SearXNG metasearch engine.
 
+Server url: `http://localhost:8892/sse`
+
 ## Features
 
 - **General Search**: Search across multiple categories and engines
