@@ -22,5 +22,5 @@ A Model Context Protocol (MCP) server for integrating with SearXNG metasearch en
 # Start server with custom SearXNG instance
 ./go_mcp_server_searxng -searxng http://127.0.0.1:8080 -t sse -p 8892
 # or cli
-./go_mcp_server_searxng -searxng http://127.0.0.1:8080 -t cli
+./go_mcp_server_searxng -searxng http://127.0.0.1:8080 -t stdio
 ```
