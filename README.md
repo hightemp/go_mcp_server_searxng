@@ -9,27 +9,6 @@ A Model Context Protocol (MCP) server for integrating with SearXNG metasearch en
 - **News Search**: Time-filtered news search
 - **Engine Info**: Get available search engines and categories
 
-## Installation
-
-```bash
-go mod tidy
-go build
-```
-
-## Available Tools
-
-### searxng_search
-Main search tool with support for categories, engines, language, pagination, time range, and safe search.
-
-### searxng_image_search
-Specialized image search with engine filtering and pagination.
-
-### searxng_news_search
-News search with time range filtering and language support.
-
-### searxng_engines_info
-Get information about available search engines and configuration.
-
 ## Parameters
 
 - `-t`: Transport type (stdio/sse), default: stdio
